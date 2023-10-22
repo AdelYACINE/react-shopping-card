@@ -20,7 +20,7 @@ const ProductDetails = () => {
         <p className="text-category">{product?.category}</p>
         <p className="text-title">{product?.title}</p>
 
-        <p className="text-description">{product?.description}</p>
+        <p className="text-description">{product?.description.slice(0, 200)}</p>
         <p className="text-price">{product?.price} $</p>
         <p className="text-rating">
           <span>Rating :</span>
