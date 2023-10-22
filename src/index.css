@@ -220,7 +220,7 @@ p {
   justify-content: center;
   gap: 3.2rem;
   padding: 6.4rem;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .details-text {
   width: 60rem;
@@ -521,7 +521,7 @@ p {
 }
 @media (max-width: 415px) {
   html {
-    font-size: 55%;
+    font-size: 53%;
   }
   .main-heading-home {
     font-size: 3rem;
