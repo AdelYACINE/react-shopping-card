@@ -220,7 +220,7 @@ p {
   justify-content: center;
   gap: 3.2rem;
   padding: 6.4rem;
-  overflow: hidden;
+  overflow: scroll;
 }
 .details-text {
   width: 60rem;
