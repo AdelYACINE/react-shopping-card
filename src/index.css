@@ -220,7 +220,6 @@ p {
   justify-content: center;
   gap: 3.2rem;
   padding: 6.4rem;
-  overflow-y: scroll;
 }
 .details-text {
   width: 60rem;
@@ -382,6 +381,19 @@ p {
   cursor: pointer;
   background-color: #9999999c;
 }
+/****************loader*****************************************************************/
+.loader-container {
+  height: 90vh;
+  position: relative;
+}
+.loader-text {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /***************************************************************************************/
 /**********responsive*******************************************************************/
 @media (max-width: 1030px) {
